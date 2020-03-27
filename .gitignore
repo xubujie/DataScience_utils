@@ -1,0 +1,6 @@
+*.ipynb_checkpoints
+*.tar
+*.csv
+runs
+model_dir
+semi

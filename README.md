@@ -19,4 +19,4 @@ For CV competitions
 
 
 For NLP Competitions
-- TBD
+- RNN(LSTM) with semi supervised learning
