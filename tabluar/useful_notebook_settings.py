@@ -1,12 +1,5 @@
 %load_ext blackcellmagic
 # %%black
-
-
-# from IPython.core.display import display, HTML
-# display(HTML("<style>.container { width:100% !important; }</style>"))
-
-print(f'value: {1.234 :,.2f}')
-
 import pandas as pd
 import numpy as np
 pd.options.display.float_format = "{:,.2f}".format
