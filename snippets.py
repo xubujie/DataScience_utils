@@ -16,7 +16,7 @@ from pyspark.sql.functions import col as C
 import seaborn as sns
 import matplotlib.pyplot as plt
 def pshow(df, n=5):
-    return df.toPandas().limit(5)
+    return df.toPandas().head(n)
 load_params = context.params
 %matplotlib inline
 %load_ext autoreload
